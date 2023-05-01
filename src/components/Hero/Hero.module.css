@@ -1,0 +1,30 @@
+.hero {
+  background: var(--color-bg-dark);
+  color: var(--color-text);
+  display: flex;
+  justify-content: center;
+  padding: 10vw;
+}
+
+.container {
+  max-width: 80rem;
+}
+
+.headline {
+  color: var(--color-accent-light);
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+}
+
+.body {
+  font-size: 1.75rem;
+  margin-bottom: 3rem;
+}
+
+.cta {
+  padding: 1rem;
+  background-color: var(--color-accent-light);
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  color: var(--color-bg-dark);
+}
